@@ -142,7 +142,7 @@ const ContentSection = () => {
             </div>
             <div className="post-card-content">
                 <Link to="" className="categorie">Music</Link>
-                <h5 className="post-card-title">How to singing keeps you calm when depressed</h5>
+                <h5 className="post-card-title">How singing keeps you calm when depressed</h5>
                 <p className="post-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quam atque ipsa laborum sunt distinctio...</p>
                 <div className="post-card-info">
                     <div>
