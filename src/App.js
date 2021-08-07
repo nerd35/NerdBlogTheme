@@ -1,4 +1,4 @@
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import { HomeScreen } from "./Screens";
 import { Footer, Header, Newsletter } from "./components";
@@ -8,7 +8,9 @@ const App = () => {
     <div className="App">
       <Router>
         <Header />
-        <HomeScreen />
+        <Switch>
+          <Route exact path="/" component={HomeScreen}/>
+        </Switch>
         <Newsletter/>
         <Footer/>
       </Router>
