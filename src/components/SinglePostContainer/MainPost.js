@@ -2,6 +2,7 @@ import React from "react";
 import PostImg from "../../assets/images/blog/postimg.jpg";
 import PostImg1 from "../../assets/images/blog/postimg1.jpg";
 import PostImg2 from "../../assets/images/blog/postimg2.jpg";
+import LatestPost from "../../assets/images/blog/latestpost.jpg";
 import Author from "../../assets/images/blog/profilep.JPG";
 
 const MainPost = () => {
@@ -74,8 +75,43 @@ const MainPost = () => {
           </p>
           <br />
           <img src={PostImg2} alt="posting1" className="pt-5" />
+          <br/>
+          <h5  className="post-single-body-title">3 - Pack light , Easy Sustainable Travel Tip</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. sunt in culpa qui officia deserunt mollit anim id e st laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam.</p>
         </div>
       </div>
+        <div class="row">
+            <div className="col-md-6">
+                <div className="pervious-widget">
+                    <div className="pervious-widget-post">
+                        <div className="small-post">
+                            <div className="small-post-img">
+                                <img src={LatestPost} alt="latestpost" className="latest-post"/>
+                            </div>
+                            <div className="content">
+                                <span className="content-link"><i class="fas fa-long-arrow-alt-left mt-1 me-2"></i> Previous post</span>
+                                <p className="previous-title">7 Healty Dinner Recipes for a Date Night at Home</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-md-6">
+                <div className="pervious-widget">
+                    <div className="pervious-widget-post">
+                        <div className="small-post">
+                            <div className="small-post-img">
+                                <img src={PostImg1} alt="latestpost" className="latest-post"/>
+                            </div>
+                            <div className="content">
+                                <span className="content-link"> Next post <i class="fas fa-long-arrow-alt-right ms-2 mt-1"></i></span>
+                                <p className="previous-title">7 Healty Dinner Recipes for a Date Night at Home</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   );
 };
