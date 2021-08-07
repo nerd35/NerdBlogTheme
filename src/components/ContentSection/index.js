@@ -10,8 +10,8 @@ import Author from "../../assets/images/blog/profilep.JPG";
 
 const ContentSection = () => {
   return (
-    <div className="container">
-      <div className="row">
+    <div className="container py-5">
+      <div className="py-5 row">
         <div className=" col-lg-4 col-md-6 col-sm-12">
           <div className=" post-card">
             <div className="Post-card-image">

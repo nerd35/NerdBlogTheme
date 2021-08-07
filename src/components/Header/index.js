@@ -4,7 +4,7 @@ import Logo from '../../assets/images/logo/logo.jpg'
 
 const Header = () => {
     return (
-        <nav className="shadow-sm navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="mb-5 shadow-sm navbar navbar-expand-lg fixed-top navbar-light bg-light">
   <div className="container">
     <Link className="navbar-brand" to="/"><img src={Logo} alt="logo" className="logo"/></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
