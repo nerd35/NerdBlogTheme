@@ -3,7 +3,7 @@ import React from "react";
 const Newsletter = () => {
   return (
       <>
-    <div className="container text-center newsletter-container d-none d-md-block">
+    <div className="container mt-5 text-center newsletter-container d-none d-md-block">
       <h1 className="newsletter-title">Subscribe to our Newslatter</h1>
       <p className="newsletter-info">
         Sign up for free and be the first to get notified about new posts.
@@ -31,7 +31,7 @@ const Newsletter = () => {
             <span className="me-3"><i class="fab fa-youtube me-2"></i>Youtube</span>
       </div>
     </div>
-    <div className="container text-center mobile-newsletter-container d-block d-md-none">
+    <div className="container mt-5 text-center mobile-newsletter-container d-block d-md-none">
       <h1 className="newsletter-title">Subscribe to our Newslatter</h1>
       <p className="newsletter-info">
         Sign up for free and be the first to get notified about new posts.
