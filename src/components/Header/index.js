@@ -12,22 +12,22 @@ const Header = () => {
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="mx-auto mb-2 navbar-nav mb-lg-0">
-        <li className="nav-item">
+        <li className="mb-2 nav-item">
           <NavLink className="nav-link " activeClassName="active" to="/" exact>Home</NavLink>
         </li>
-        <li className="nav-item">
+        <li className="mb-2 nav-item">
           <NavLink className="nav-link" to="/blog" activeClassName="active" >Blog</NavLink>
         </li>
-        <li className="nav-item">
+        <li className="mb-2 nav-item">
           <NavLink className="nav-link" to="/single_post" activeClassName="active">Single Post</NavLink>
         </li>
-        <li className="nav-item">
+        <li className="mb-2 nav-item">
           <NavLink className="nav-link" to="/login" activeClassName="active">Login</NavLink>
         </li>
-        <li className="nav-item">
+        <li className="mb-2 nav-item">
           <NavLink className="nav-link" to="/register" activeClassName="active">Register</NavLink>
         </li>
-        <li className="nav-item">
+        <li className="mb-2 nav-item">
           <NavLink className="nav-link" to="/not_found" activeClassName="active">Not Found</NavLink>
         </li>
       </ul>
