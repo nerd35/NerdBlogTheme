@@ -91,3 +91,107 @@ img{
     color: #152035;
     margin-bottom: 0;
 }
+.comment-widget{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
+}
+.comment-widget .title{
+    margin-bottom: 20px
+}
+.comment-widget .title .comment-title{
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.4;
+    color: #152035;
+    margin: 0;
+}
+.comment-widget .comment-widget-section{
+    margin-bottom: 70px;
+}
+.comment-widget-section .comment-item{
+    display: flex;
+    margin-bottom: 50px;
+}
+.comment-widget-section .comment-item .author-coment-img{
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-top: 0 !important;
+}
+
+.author-coment-img{
+    max-width: 100% !important;
+}
+.author-coment-img{
+    vertical-align: middle;
+    border-style: none;
+}
+.comment-widget-section .comment-content .comment-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.comment-widget-section .comment-content .comment-info .comment-info-text{
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #506172;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.comment-link{
+    background-color: #f67280;
+    color: #ffffff !important;
+    padding: 1px 10px;
+    display: inline-flex;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 20px;
+    font-weight: 700 !important;
+    text-transform: capitalize;
+}
+.form-widget .form-control-textarea{
+    background-color: #F9F9FF;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    padding: 22px 20px;
+    font-size: 14px;
+    color: #152035;
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.form-widget .form-control-input{
+    background-color: #F9F9FF;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    padding: 22px 20px;
+    font-size: 14px;
+    color: #152035;
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.form-widget .btn-custom{
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 22px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    background-color: #f67280;
+    color: #ffffff;
+    border: 0px;
+    transition: all 0.5s ease-in-out;
+}
