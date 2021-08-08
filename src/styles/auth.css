@@ -1,0 +1,123 @@
+.auth-section {
+    margin-top: 65px;
+    background-color: #F9F9FF;
+    padding-top: 55px !important;
+    margin-bottom: 50px;
+}
+.auth-widget {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%)
+}
+.auth-widget-container{
+    width: 500px;
+    margin: auto;
+    display: block;
+    position: relative;
+    transition: all 0.9s ease-in-out;
+}
+.auth-widget-title{
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.auth-widget-title h5 {
+    text-transform: capitalize;
+    position: relative;
+    font-weight: 900;
+    line-height: 1.4;
+    color: #152035;
+    margin: 0;
+    
+}
+.form-widget form-group{
+    margin-bottom: 20px;
+}
+.form-widget .form-control{
+    background-color: #F9F9FF;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    padding: 22px 20px;
+    font-size: 14px;
+    color: #152035;
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+}
+.form-widget .form-control:hover{
+    box-shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%)
+    
+}
+
+.auth-control{
+    margin: 20px 0px;
+    align-items: center;
+    font-size: 14px;
+    display: flex;
+    -webkit-box-align: center;
+}
+.custom-control{
+    position: relative;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
+}
+.custom-comtrol-input{
+    box-sizing: border-box;
+    padding: 0;
+}
+custom-control-label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.click-link{
+    color: #506172;
+    font-weight: 400;
+    margin-left: auto!important;
+    text-decoration: none;
+}
+.btn-suth-custom{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-align: center;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 22px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    background-color: #f67280;
+    color: #ffffff;
+    border: 0px;
+    transition: all 0.5s ease-in-out;
+}
+.option-section{
+    font-size: 14px;
+    margin-bottom: 0px !important
+}
+.option-link{
+    color: #152035;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}

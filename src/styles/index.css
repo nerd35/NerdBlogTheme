@@ -36,3 +36,6 @@ body {
 
 /* Header css */
 @import './notfound.css';
+
+/* Header css */
+@import './auth.css';
