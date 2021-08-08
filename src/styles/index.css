@@ -33,3 +33,6 @@ body {
 @import './newsletter.css';
 /* Header css */
 @import './singlepost.css';
+
+/* Header css */
+@import './notfound.css';

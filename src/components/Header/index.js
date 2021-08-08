@@ -25,7 +25,7 @@ const Header = () => {
           <NavLink className="nav-link" to="contact" activeClassName="active">Contact</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="faq" activeClassName="active">FAQ</NavLink>
+          <NavLink className="nav-link" to="/not_found" activeClassName="active">Not Found</NavLink>
         </li>
       </ul>
       <ul className="mb-2 ms-auto navbar-nav mb-lg-0 ">
